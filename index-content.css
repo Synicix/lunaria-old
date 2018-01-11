@@ -1,0 +1,42 @@
+
+.content-page-2
+{
+    display: block;
+}
+
+
+
+
+
+.content-table
+{
+    display: relative;
+    width: 100%;
+    padding: 2% 0%;
+    background-color: #505050;
+}
+
+.content-table tr td
+{
+    width: 33%;
+    background-color: aliceblue;
+}
+
+.content-table-text-wrapper
+{
+    width: 33%;
+    background-color: white;
+}
+
+.table-text
+{
+    color: white;
+    width: 33%;
+
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    transition: color 0.7s ease;
+    
+}

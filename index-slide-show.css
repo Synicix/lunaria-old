@@ -1,0 +1,38 @@
+.slideshow-container
+{
+    position: relative;
+    width: 100%;
+}
+
+.fadein 
+{ 
+    position: absolute; 
+    width: 100%;
+    height: auto;
+}
+
+.fadein img 
+{
+    position: absolute; 
+    width: 100%;
+      top: 50%;
+  left: 50%;
+  transform: translate(0%, -100%);
+    left:0; 
+    top:0;
+    transition:opacity 5s;
+    opacity: 1;
+}
+
+.fadein img.is-hidden 
+{ 
+    opacity:0; 
+}
+
+
+.test
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}

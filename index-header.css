@@ -1,0 +1,120 @@
+.header
+{
+    position: block;
+    vertical-align: top;
+    width: 100%;
+    margin: 0%;
+
+}
+
+
+
+.nav-wrapper
+{
+    display: fixed;
+    width: 60%;
+    padding: 0.1% 0%;
+    margin: 0.4% auto;
+    text-align: left;
+}
+
+
+.logo-container
+{
+    margin: 1% 0%;
+    display: inline-block;
+    position: relative;
+}
+.home-logo
+{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+}
+
+
+.logo-text
+{
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    vertical-align: middle;
+    margin-left: 100%;
+    font-size: 20px;
+}
+
+.header-navigation-list
+{
+    display: inline-block;
+    position: absolute;
+    list-style-type: none;
+    margin-right: 0;
+    width: 50%;
+    text-align: right;
+}
+
+.header-navigation-list li
+{
+    display: inline-block;
+    position: relative;
+    margin: 0% 2%;
+    vertical-align: middle;
+}
+
+.header-navigation-links
+{
+    display: block;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    padding: 5% 5%;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    transition: color 0.7s ease;
+}
+
+.header-navigation-list li a:hover
+{
+    color: #AAAAAA;
+}
+
+.search-button
+{
+    position: relative;
+    width: 22px;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #202020;
+    min-width: 180px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+.header-sub-menu-navigation-links
+{
+    display: block;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 5% 10%;
+}
